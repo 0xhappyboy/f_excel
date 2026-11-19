@@ -1,0 +1,13 @@
+[package]
+name = "f_excel"
+version = "0.1.0"
+edition = "2024"
+authors = ["happyboy <superhappyboy1995@gmail.com>"]
+description = "A Rust engine for Excel (xlsx) files, with FExcel at its core, providing complete workbook structure decomposition and read/write capabilities."
+keywords = ["Excel", "xlsx", "table"]
+license = "Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/0xhappyboy/f_excel"
+
+[dependencies]
+zip = "9.7.3"
